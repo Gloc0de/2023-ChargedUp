@@ -102,4 +102,14 @@ public final class Constants {
       }
     }
   }
+
+  public static class LEDconstants {
+    public static final int FRONT_RIGHT_LED_PORT = 4;
+    public static final int FRONT_LEFT_LED_PORT = 3;
+    public static final int BACK_RIGHT_LED_PORT = 2;
+    public static final int BACK_LEFT_LED_PORT = 1;
+
+    public static final int FRONT_LED_LENGTH = 21;
+    public static final int BACK_LED_LENGTH = 9;
+  }
 }
